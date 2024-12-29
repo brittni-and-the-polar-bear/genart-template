@@ -20,7 +20,7 @@ A template for new generative art projects using the [@batpb/genart](https://www
 ## project releases
 
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/brittni-and-the-polar-bear/genart-template)
-![GitHub License](https://img.shields.io/github/license/brittni-and-the-polar-bear/genart-template?)
+![GitHub License](https://img.shields.io/github/license/brittni-and-the-polar-bear/genart-template)
 
 ----
 
