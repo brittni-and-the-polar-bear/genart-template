@@ -1,10 +1,13 @@
 *.DS_Store
 
-# node and npm
+# JetBrains IDEs
+.idea/
+
+# Node.js
 node_modules/
 
-# bundling, testing, and coverage output
-out/
+# TypeScript
+_compiled/
 
-# WebStorm and JetBrains IDEs
-.idea/
+# webpack
+_dist/
