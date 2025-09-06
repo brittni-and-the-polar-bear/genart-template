@@ -29,7 +29,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
     entry: {
         sketch: {
-            import: './src/main/sketch.ts',
+            import: './src/sketch.ts',
             dependOn: ['p5', 'genart']
         },
         genart: {
@@ -64,21 +64,11 @@ module.exports = {
         new MiniCssExtractPlugin()
     ],
     optimization: {
-        concatenateModules: true,
         emitOnErrors: false,
-        mangleExports: true,
-        mergeDuplicateChunks: true,
-        minimize: true,
-        providedExports: true,
-        removeAvailableModules: true,
-        removeEmptyChunks: true,
-        splitChunks: {
-            chunks: 'all'
-        },
         usedExports: true
     },
     output: {
-        path: path.resolve(__dirname, 'out/dist'),
+        path: path.resolve(__dirname, './_dist'),
         filename: '[name].[fullhash:8].js',
         sourceMapFilename: '[name].[fullhash:8].map',
         chunkFilename: '[name].[fullhash:8].js',
@@ -86,7 +76,7 @@ module.exports = {
     },
     devServer: {
         static: {
-            directory: path.join(__dirname, 'out/dist')
+            directory: path.join(__dirname, './_dist')
         },
         client: {
             overlay: true
