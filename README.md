@@ -2,29 +2,31 @@
 
 Copyright (C) 2023-2024 brittni and the polar bear LLC.
 
-A template for new generative art projects using the [@batpb/genart](https://www.npmjs.com/package/@batpb/genart) library.
+A template for new projects using the
+[@batpb/genart](https://www.npmjs.com/package/@batpb/genart)
+library with TypeScript.
 
 ----
 
-# project stats
+## project stats
 
 ----
 
-## actions
+### actions
 
 [![CodeQL](https://github.com/brittni-and-the-polar-bear/genart-template/actions/workflows/codeql.yml/badge.svg)](https://github.com/brittni-and-the-polar-bear/genart-template/actions/workflows/codeql.yml)
-[![Node.js Build](https://github.com/brittni-and-the-polar-bear/genart-template/actions/workflows/node-js.yml/badge.svg)](https://github.com/brittni-and-the-polar-bear/genart-template/actions/workflows/node-js.yml)
+[![npm Build](https://github.com/brittni-and-the-polar-bear/genart-template/actions/workflows/npm-build.yml/badge.svg)](https://github.com/brittni-and-the-polar-bear/genart-template/actions/workflows/npm-build.yml)
 
 ----
 
-## project releases
+### project info
 
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/brittni-and-the-polar-bear/genart-template)
 ![GitHub License](https://img.shields.io/github/license/brittni-and-the-polar-bear/genart-template)
 
 ----
 
-## github
+### github
 
 ![GitHub followers](https://img.shields.io/github/followers/brittni-and-the-polar-bear)
 ![GitHub Repo stars](https://img.shields.io/github/stars/brittni-and-the-polar-bear/genart-template)
@@ -44,7 +46,7 @@ A template for new generative art projects using the [@batpb/genart](https://www
 
 ----
 
-# attributions
+## attributions
 
 The favicon.ico of this template was designed by
 [Freepik from Flaticon](https://www.flaticon.com/free-icons/art).
@@ -53,10 +55,10 @@ You can find the original icon on
 
 ----
 
-# license
+## license
 
 The source code of this project is licensed under the
-[GNU Affero General Public Version 3.0 License](https://www.gnu.org/licenses/agpl-3.0.en.html).
+[MIT License](https://opensource.org/license/mit).
 The full text of the license is included with this source code.
 
 The visual outputs of this project are licensed under the
